@@ -1,19 +1,14 @@
 import re
 import pyautogui
 import win32gui
-from pywinauto.findwindows    import find_window
-from win32gui import SetFocus
 import win32gui as wgui
 import win32process as wproc
 import win32api as wapi
 import win32gui
 from time import sleep
-import pyperclip
 import os
-from fpdf import FPDF
 import img2pdf
 from PIL import Image
-from pytesseract import pytesseract
 
 
 #Set Console Window Positon
